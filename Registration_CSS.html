@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			margin : 510px;
+			margin-top: 20px;
+			border: 10px solid transparent;
+  			padding: 16px;
+			border-image: url(border.png) 30 round;
+			
+		}
+		.table{
+			margin-left: 30px;
+		}
+		.bg {
+			background-color: orange;
+		}
+		body: hover{
+			background-color: brown;
+		}
+
+	</style>
+	<title> Registration Form </title>
+</head>
+<body>
+	<div class = "bg">
+		<br>
+	<h3 align = "center" style = "color : blue">Student Registration Form</h3>
+
+	<table class = "table"  cellspacing="20" width = 470>
+		
+		<tr>
+			<td><label for = "regno">Reg No  </label>
+			<td><input type = "text" id = "regno" name = "regno" placeholder = " enter your Regno">
+		</tr>
+		<tr>
+			<td><label for = "fname">Name  </label>
+			<td><input type = "text" id = "fname" name = "fname" placeholder = " enter your Name">
+		</tr>
+		<tr>
+			<td><label for = "f_name">Father Name  </label>
+			<td><input type = "text" id = "f_name" name = "f_name" placeholder = "enter your Father Name">
+		</tr>
+		<tr>
+			<td><p>Gender</p>
+			<td><input type = "radio" id = "gender" name = "gender"> <label for = "gender">male</label> <input type = "radio" id = "gender" name = "gender"> <label for = "gender">female</label> 
+		</tr>
+		<tr>
+			<td><label for = "dob">Date of Birth</label>
+			<td><input type = "Date" id = "dob" name = "dob">
+		</tr>
+		<tr>
+			<td><p>Languages Known</p>
+			<td><input type = "checkbox" id = "lKnown" name = "lKnown"><label for = "lKnown">C</label>
+				<input type = "checkbox" id = "lKnown" name = "lKnown"><label for = "lKnown">Python</label>
+				<br>
+				<input type = "checkbox" id = "lKnown" name = "lKnown"><label for = "lKnown">Java</label>
+				<input type = "checkbox" id = "lKnown" name = "lKnown"><label for = "lKnown">R</label>
+		</tr>
+		<tr>
+			<td><p>Branch</p>
+			<td><input list = "branch" placeholder="Select a branch">
+				<datalist id = "branch">
+				<option value = "AI&DS">
+				<option value = "CSE">
+				<option value = "IT">
+				<option value = "Civil">
+				<option value = "ECE">
+				<option value = "EEE">
+				<option value = "AI&ML">
+			</datalist>
+		</tr>
+		<tr>
+			<td><p>Address</p>
+			<td><textarea name = "address" rows = 10 cols = 25>enter your address</textarea> 
+		</tr>
+		
+	</table>
+	<br>
+			<div class = "table" style ="width:470px"><input type = "submit" value = "Submit" style = "margin-left: 100px">
+			<input type = "reset" value = "Reset" style = "margin-left: 30px"><br><br>
+			</div>
+	</div>
+</body>
+</html>
