@@ -1,0 +1,32 @@
+h1{
+	color: yellow;
+	background-color: orange;
+	font-style: bold;
+	text-align: right;
+	text-decoration-line: underline;
+	text-decoration-color: green;
+	text-decoration-style: wavy;
+	text-transform: uppercase;
+	text-shadow: 2px 2px darkred;
+}
+h2{
+	color: red;
+	background-color: lightcyan;
+	font-style: Sans-serif;
+	text-align: left;
+	text-transform: lowercase;
+	text-shadow: 3px 2px pink;
+}
+h3{
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	font-style: serif;
+	text-align: center;
+	text-transform: capitalize;
+	text-shadow: 5px;
+	height: 50px;
+	text-decoration-line: line-through;
+	text-decoration-style: dashed;
+	text-decoration-color: lightcyan;
+}
